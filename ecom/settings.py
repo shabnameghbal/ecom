@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import os
-import dj_database_url
+
 
 
 
@@ -31,7 +31,8 @@ SECRET_KEY = 'django-insecure-e3si7*hod-t3+v@45-6skysv#^2432)xsz#(5o^*57wgqvn#j(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+
+ALLOWED_HOSTS = []
 
 CSRF_TRUSTED_ORIGINS = ['https://ecom-thif.onrender.com']
 
